@@ -76,7 +76,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
             child: ListView(
               children: <Widget>[
                 _buildSwitchListTile(
-                  'Glute-free',
+                  'Gluten-free',
                   'Only include glutes-free meals',
                   _glutenFree,
                   (newValue) => setState(
